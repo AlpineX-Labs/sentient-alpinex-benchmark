@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sentient-agi-benchmark"
+version = "0.1.0"
+description = ""
+authors = ["Tarik Moon <tarik@tarikmoon.com>"]
+readme = "README.md"
+packages = [{include = "sentient_agi_benchmark"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+locust = "^2.32.3"
+openai = "^1.55.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
